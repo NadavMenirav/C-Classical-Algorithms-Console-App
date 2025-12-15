@@ -1,6 +1,5 @@
 /**********************
  * Nadav Menirav
- * 330845678
  * ex_2
  **********************/
 
@@ -213,4 +212,5 @@ int scanDouble() {
 	if (remainder != 0.0) //If the input wasn't an integer. Output format for this kind of input was not given
 		return -1;
 	return (int)num;
+
 }
